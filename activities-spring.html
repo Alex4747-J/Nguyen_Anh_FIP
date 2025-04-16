@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=New+Amsterdam&family=Sanchez:ital@0;1&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d0e8431583.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/grid.css" type="text/css">
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+    <title>Activities, Spring</title>
+    <!-- meta charset="UTF-8" -->
+    <!-- go to google fonts; search 'sanchez' click 'get font' get embedded -->
+    <!-- go into CSS and in body add font-family: 'Sanchez', 'Times New Roman', serif; -->
+    <!-- srcipt src="https://kit.fontawesome.com/d0e8431583.js" crossorigin="anonymous" for icons -->
+</head>
+    <body>
+        <h1 class="hidden">Welcome to The Couples Resort</h1>
+        <!-- Main Nav -->
+         <header class="grid-con" id="main-header">
+            <nav id="main-nav" class="col-span-full">
+                <h2 class="hidden">Main Navigation</h2>
+                <input type="checkbox" id="hamburger">
+                <label for="hamburger">
+                    <img src="images/burger.svg" alt="hamburger menu icon">
+                </label>                
+                 <div id="burger-con">
+                  <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Rooms</a></li>
+                    <li><a href="#">Packages</a></li>
+                    <li><a href="#">Dining</a></li>
+                    <li><a href="activities.html">Activities</a>
+                        <ul class="main-nav-sub">
+                            <li><a href="#">Algonquin Park</a></li>
+                            <li><a href="activities-spring.html">Spring</a></li>
+                            <li><a href="#">Summer</a></li>
+                            <li><a href="#">Fall</a></li>
+                            <li><a href="#">Winter</a></li>
+                        </ul>    
+                    </li>
+                    <li><a href="spa.html">Spa</a></li>
+                    <li><a href="#">Reservations</a></li>
+                </ul>
+                 </div>
+            </nav>
+            <div id="logo" class="col-span-full">                              
+                <img src="images/couples_resort_logo.svg" alt="Couples Resort Logo">
+            </div>
+         </header>
+         
+         <!-- Hero Section -->
+         <section id="activities-spring-hero" class="grid-con">
+            <h2 class="hidden">Book a stay with us</h2>
+            <div class="book-now col-start-3 col-span-2 book-now-hero">
+                <p>Book Now</p>
+            </div>
+            <section id="hero-heading-box" class="col-span-full">
+                <h2 class="hero-img-h2">
+                    <span>Couples Resort</span>
+                    <br>
+                    Spring - Couples Only
+                </h2>
+            </section>
+         </section>
+
+         <article class="grid-con">
+            <h2 class="hidden">Spring Activities Gallery</h2>
+            <div class="col-span-full line-separator">
+                <div class="slides">
+                    <input type="radio" name="radio-btn" id="img-1" checked />
+                    <div class="slide-container">
+                      <div class="slide">
+                        <img src="Images/Activities-Spring/slide-1.jpg" alt="Picture of Spring Activities">
+                      </div>
+                      <div class="nav">
+                        <label for="img-3" class="prev">&#x2039;</label>
+                        <label for="img-2" class="next">&#x203a;</label>
+                      </div>
+                    </div>
+                
+                    <input type="radio" name="radio-btn" id="img-2" />
+                    <div class="slide-container">
+                        <div class="slide">
+                          <img src="Images/Activities-Spring/slide-2.jpg" alt="Picture of Spring Activities">
+                        </div>
+                      <div class="nav">
+                        <label for="img-1" class="prev">&#x2039;</label>
+                        <label for="img-3" class="next">&#x203a;</label>
+                      </div>
+                  </div>
+                
+                    <input type="radio" name="radio-btn" id="img-3" />
+                    <div class="slide-container">
+                            <div class="slide">
+                              <img src="Images/Activities-Spring/slide-3.jpg" alt="Picture of Spring Activities">
+                            </div>
+                    <div class="nav">
+                      <label for="img-2" class="prev">&#x2039;</label>
+                      <label for="img-1" class="next">&#x203a;</label>
+                    </div>
+                  </div>
+
+                  <div>
+                    <div class="nav-dots grid-con ">
+                      <label for="img-1" class="nav-dot" id="img-dot-1"></label>
+                      <label for="img-2" class="nav-dot" id="img-dot-2"></label>
+                      <label for="img-3" class="nav-dot" id="img-dot-3"></label>
+                    </div>
+                  </div>
+              </div>
+          </div>
+         </article>
+         <div class="grid-con">
+          <section id="hero-summary" class="col-span-full spring-info">
+              <h2 class="hidden">Info of Spring Activities</h2>
+              <p>ALL-INCLUSIVE <br>
+                Romantic Getaway</p>
+              <p>Spring is in the air and life in Nature is coming alive with excitement here at Algonquin Park, a perfect time to take a romantic vacation at Couples Resort and visit Algonquin Park.</p>
+              <p>Weather here in the spring can often be several degrees warmer than if you live near places like Lake Ontario as the ground here can warm up fast and we have no big Lake effect keeping air cool. Here you can enjoy outdoor hiking plus many other sports and attractions.</p>
+              <a href="#">CLICK TO LEARN MORE...</a>
+            </section>
+
+            <!-- Contact Hero -->
+            <section id="contact" class="grid-con">
+              <h2 class="hidden">Contact Us</h2>
+                <div class="col-start-2 col-span-2">                
+                    <i class="fas fa-mobile-alt"></i>
+                    <p id="hero-numbers">
+                        Toll Free: +1 866 202-1179 <br>
+                        Fax: +1 613 637 2615 <br>
+                        info[at]coupleresort.com
+                    </p>
+                </div>
+                <div class="col-start-2 col-span-2">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p id="hero-address">
+                        1198 Osprey Rd, (End of) <br>
+                        Minden, Soyers Lake, ON <br>
+                        K0M 2K0
+                    </p>
+                </div>          
+           </section>
+       </div>
+
+       <!-- Park Activities - Honrizontal Scroll -->
+       <section id="spring-activity-hero-con" class="grid-con">
+        <h2 class="hidden">Park Activities - Spring</h2>
+        <div class="book-now col-start-3 col-span-2 book-now-hero">
+            <p>Book Now</p>
+        </div>
+        <div id="why-choose-us-heading-box" class="col-span-full">
+            <h3 class="hero-img-h3"><span>Couples Resort</span><br>Park Activities - Spring</h3>
+        </div>
+     </section>
+     <article>
+      <h2 class="hidden">Spring Activities</h2>
+      <div class="grid-con">
+        <div class="scroll-container col-span-full line-separator">
+          <div>
+            <img src="Images/Activities-Spring/act-1.jpg" alt="Activity 1">
+            <p class="act">Swimming Pool & Patio & Lake</p>
+            <div class="explore-btn">
+              <p>Explore</p>
+            </div>
+          </div>
+          <div>
+            <img src="Images/Activities-Spring/act-2.jpg" alt="Activity 2">
+            <p class="act">Algonquin Park Spring</p>
+            <div class="explore-btn">
+              <p>Explore</p>
+            </div>
+          </div>
+          <div>
+            <img src="Images/Activities-Spring/act-3.jpg" alt="Activity 3">
+            <p class="act">Motor, Paddle & Row Boats</p>
+            <div class="explore-btn">
+              <p>Explore</p>
+            </div>
+          </div>
+        </div>
+        <div class="scroll-container col-span-full">
+          <div>
+            <img src="Images/Activities-Spring/act-4.jpg" alt="Activity 4">
+            <p class="act">Pickleball - Tennis - Badminton</p>
+            <div class="explore-btn">
+              <p>Explore</p>
+            </div>
+          </div>
+          <div>
+            <img src="Images/Activities-Spring/act-5.jpg" alt="Activity 5">
+            <p class="act">Kayaks & Canoes</p>
+            <div class="explore-btn">
+              <p>Explore</p>
+            </div>
+          </div>
+          <div>
+            <img src="Images/Activities-Spring/act-6.jpg" alt="Activity 6">
+            <p class="act">Hiking & Biking</p>
+            <div class="explore-btn">
+              <p>Explore</p>
+            </div>
+          </div>
+        </div>
+      </div>
+     </article>
+
+     <!-- Footer -->
+     <footer id="footer-hero" class="grid-con">
+      <section id="footer-contact-info" class="col-span-full">
+          <h3>Couples Resort</h3>
+          <p>
+              1198 Osprey Rd, (End of) <br>
+              Minden, Soyers Lake, On, <br>
+              K0M 2K0
+          </p>
+          <p>
+              Toll Free: +1 866 202-1179 <br>
+              Fax: +1 613 637 2615 <br>
+              info[at]coupleresort.com
+          </p>
+      </section>
+
+      <div id="footer-privacy" class="col-span-full line-separator">
+          <p id="price-policy">All prices and services on this website and in our reservation system are based on conditions at the time of publishing and are subject to change. 
+              Please call to confirm services, availability and pricing. <br> 
+              ©2013 Couples Resort Inc. <br>
+              All Rights Reserved. <br>
+              Privacy Policy </p>
+      </div>
+   </footer>
+
+  <script src="js/main.js"></script>
+    </body>
+</html>
